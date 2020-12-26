@@ -29,10 +29,10 @@ export default class Footer extends Component {
         <Row>
             <Col>
             <div className="socialList">
-                <a href="www.Facebook.com/T.Nesh.97" className="facebook" ><FontAwesomeIcon icon={faFacebook} /></a>
-                <a href="www.twitter.com/thineshnagindr1?s=08" className="twitter"><FontAwesomeIcon icon={faTwitter} /></a>
-                <a href="www.instagram.com/thinesh1908" className="instagram"><FontAwesomeIcon icon={faInstagram} /></a>
-                <a href="www.github.com/Tnesh97" className="github"><FontAwesomeIcon icon={faGithub} /></a>
+                 <a href="https://web.facebook.com/T.Nesh.97" onClick="window.open('https://web.facebook.com/T.Nesh.97', '_blank');" className="facebook"><FontAwesomeIcon icon={faFacebook} /></a>
+                 <a href="https://twitter.com/thineshnagindr1?s=08" onClick="window.open('https://twitter.com/thineshnagindr1?s=08', '_blank');" className="twitter"><FontAwesomeIcon icon={faTwitter} /></a>
+                 <a href="https://www.instagram.com/thinesh1908/" onClick="window.open('https://www.instagram.com/thinesh1908/', '_blank');" className="instagram"><FontAwesomeIcon icon={faInstagram} /></a>
+                 <a href="https://github.com/Tnesh97" onClick="window.open('https://github.com/Tnesh97', '_blank');" className="github"><FontAwesomeIcon icon={faGithub} /></a>
             </div>
             </Col>
         </Row>

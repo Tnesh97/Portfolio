@@ -78,11 +78,11 @@ export default class Header extends Component {
                and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
                <hr />
                <div className="social">
-                 <a href="www.Facebook.com/T.Nesh.97"><FontAwesomeIcon icon={faFacebook} /></a>
-                 <a href="www.twitter.com/thineshnagindr1?s=08"><FontAwesomeIcon icon={faTwitter} /></a>
-                 <a href="www.linked.com"><FontAwesomeIcon icon={faLinkedinIn} /></a>
-                 <a href="www.instagram.com/thinesh1908"><FontAwesomeIcon icon={faInstagram} /></a>
-                 <a href="www.skype.com"><FontAwesomeIcon icon={faSkype} /></a>
+                 <a href="https://web.facebook.com/T.Nesh.97" onClick="window.open('https://web.facebook.com/T.Nesh.97', '_blank');"><FontAwesomeIcon icon={faFacebook} /></a>
+                 <a href="https://twitter.com/thineshnagindr1?s=08" onClick="window.open('https://twitter.com/thineshnagindr1?s=08', '_blank');"><FontAwesomeIcon icon={faTwitter} /></a>
+                 <a href="https://www.linkedin.com/" onClick="window.open('https://www.linkedin.com/', '_blank');"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                 <a href="https://www.instagram.com/thinesh1908/" onClick="window.open('https://www.instagram.com/thinesh1908/', '_blank');"><FontAwesomeIcon icon={faInstagram} /></a>
+                 <a href="https://www.skype.com/en/" onClick="window.open('https://www.skype.com/en/', '_blank');"><FontAwesomeIcon icon={faSkype} /></a>
               </div>
             </div>
             <div className="scrolldown">
