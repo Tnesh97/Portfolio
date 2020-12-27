@@ -171,8 +171,10 @@ export default class Works extends Component {
             <Modal.Body>
               <Row>
                 <Col>
-                  <div>I will not close if you click outside me. Don't even try to press
-                       escape key.
+                  <div>
+                    <p>
+                      Simple html,css,javascript and bootsrap practices.
+                    </p>
                   </div>
                 </Col>
                 <Col>
