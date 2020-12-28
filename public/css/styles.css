@@ -602,7 +602,6 @@ padding-inline-start: 0px!important;
    opacity:1;
 }
 
-
 #Works .box:hover .content a{
    transform: translateY(48px);
    transition-delay: 0.5s;
@@ -611,6 +610,10 @@ padding-inline-start: 0px!important;
 
 #Works .box .content a:hover{
    color: #0F9095;
+}
+
+#Works .modal-dialog .modal-explanation p{
+   font: 14px/20px 'OpenSans-Regular';
 }
 
 /*---RESUME--*/

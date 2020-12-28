@@ -137,16 +137,18 @@ export default class Works extends Component {
             </Row>
           </Container>
 
-          <Modal show={this.state.isOpen} onHide={this.closeModal} backdrop="static" keyboard={false} animation={true} >
+          {/*modal 1 */}
+
+          <Modal show={this.state.isOpen} onHide={this.closeModal} backdrop="static" keyboard={false}>
             <Modal.Header closeButton >
               <Modal.Title><span>ASP.NET</span></Modal.Title>
             </Modal.Header>
             <Modal.Body>
               <Row>
                 <Col>
-                  <div>
+                  <div className="modal-explanation">
                     <p>
-                      Simple ASP.NET core practice.
+                      Simple ASP.NET MVC practice.
                     </p>
                   </div>
                 </Col>
@@ -188,7 +190,7 @@ export default class Works extends Component {
               <Button variant="secondary" onClick={this.closeModal2}>
                 Close
           </Button>
-              <Button variant="primary">View</Button>
+              <Button variant="primary"><a href="files/html/index.html" target="_blank" style={{ textDecoration: 'none', color:'white' }}>View</a></Button>
             </Modal.Footer>
           </Modal>
          
@@ -201,8 +203,7 @@ export default class Works extends Component {
             <Modal.Body>
               <Row>
                 <Col>
-                  <div>I will not close if you click outside me. Don't even try to press
-                       escape key.
+                  <div>REACT.JS practices
                   </div>
                 </Col>
                 <Col>
@@ -227,8 +228,7 @@ export default class Works extends Component {
             <Modal.Body>
               <Row>
                 <Col>
-                  <div>I will not close if you click outside me. Don't even try to press
-                       escape key.
+                  <div>PHP and MySql practices
                   </div>
                 </Col>
                 <Col>
@@ -253,8 +253,7 @@ export default class Works extends Component {
             <Modal.Body>
               <Row>
                 <Col>
-                  <div>I will not close if you click outside me. Don't even try to press
-                       escape key.
+                  <div>C# practices
                   </div>
                 </Col>
                 <Col>
@@ -279,8 +278,7 @@ export default class Works extends Component {
             <Modal.Body>
               <Row>
                 <Col>
-                  <div>I will not close if you click outside me. Don't even try to press
-                       escape key.
+                  <div>C++ practices
                   </div>
                 </Col>
                 <Col>
@@ -291,7 +289,7 @@ export default class Works extends Component {
             <Modal.Footer>
               <Button variant="secondary" onClick={this.closeModal6}>
                 Close
-          </Button>
+            </Button>
               <Button variant="primary">View</Button>
             </Modal.Footer>
           </Modal>
