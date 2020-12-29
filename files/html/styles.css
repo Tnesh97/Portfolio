@@ -4,11 +4,9 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr;
   row-gap: 40px;
 
 }
-
 
 .portfolio-item-wrapper {
   position: relative;
@@ -63,7 +61,15 @@ body {
 }
 
 h1{
+  color: darkcyan;
+}
+
+h2{
   color: darkblue;
+}
+
+.profile-content-wrapper {
+  text-align: center;
 }
 
 /* .two-column-wrapper {
@@ -83,3 +89,21 @@ h1{
 .profile-content-wrapper h1 {
   color: lightseagreen;
 } */
+
+@media only screen and (max-width: 768px){
+  .container{
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+    row-gap: 10px!important;
+  }
+  .container .column-margin {
+    margin: 20px 0!important;
+  }
+  .profile-image-wrapper{
+    text-align: center!important;
+  }
+   .profile-image-wrapper img{
+     width: 50%!important;
+     height: 50%!important;
+   }
+}
