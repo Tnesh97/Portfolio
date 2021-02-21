@@ -162,7 +162,7 @@ export default class Works extends Component {
               <Button variant="secondary" onClick={this.closeModal}>
                 Close
           </Button>
-              <Button variant="primary">View</Button>
+              <Button variant="primary"><a href="https://github.com/Tnesh97/BookListMVC/" target="_blank" style={{ textDecoration: 'none', color:'white' }}>View</a></Button>
             </Modal.Footer>
           </Modal>  
 
@@ -203,7 +203,8 @@ export default class Works extends Component {
             <Modal.Body>
               <Row>
                 <Col>
-                  <div>REACT.JS practices
+                  <div>
+                    TODO app using REACT.JS
                   </div>
                 </Col>
                 <Col>
@@ -215,7 +216,7 @@ export default class Works extends Component {
               <Button variant="secondary" onClick={this.closeModal3}>
                 Close
           </Button>
-              <Button variant="primary">View</Button>
+              <Button variant="primary"><a href="https://tnesh97.github.io/todo-app/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color:'white' }}>View</a></Button>
             </Modal.Footer>
           </Modal>
 
@@ -241,7 +242,7 @@ export default class Works extends Component {
               <Button variant="secondary" onClick={this.closeModal4}>
                 Close
           </Button>
-              <Button variant="primary"><a href="https://github.com/Tnesh97/php_mysql.git" target="_blank" style={{ textDecoration: 'none', color:'white' }}>View</a></Button>
+              <Button variant="primary"><a href="https://github.com/Tnesh97/php_mysql.git" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color:'white' }}>View</a></Button>
             </Modal.Footer>
           </Modal>
 
