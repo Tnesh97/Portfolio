@@ -280,7 +280,7 @@ export default class Works extends Component {
             <Modal.Body>
               <Row>
                 <Col>
-                  <div>C++ practices
+                  <div>C++ Calculator
                   </div>
                 </Col>
                 <Col>
@@ -292,7 +292,7 @@ export default class Works extends Component {
               <Button variant="secondary" onClick={this.closeModal6}>
                 Close
             </Button>
-              <Button variant="primary">View</Button>
+            <Button variant="primary"><a href="https://github.com/Tnesh97/CplusplusCalculator.git" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color:'white' }}>View</a></Button>
             </Modal.Footer>
           </Modal>
           
