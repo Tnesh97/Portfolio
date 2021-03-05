@@ -267,7 +267,7 @@ export default class Works extends Component {
               <Button variant="secondary" onClick={this.closeModal5}>
                 Close
           </Button>
-              <Button variant="primary">View</Button>
+              <Button variant="primary"><a href="https://github.com/Tnesh97/RazorPages.git" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color:'white' }}>View</a></Button>
             </Modal.Footer>
           </Modal>
 
