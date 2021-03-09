@@ -78,11 +78,11 @@ export default class Header extends Component {
                and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
                <hr />
                <div className="social">
-                 <a href="https://web.facebook.com/T.Nesh.97" onClick="window.open('https://web.facebook.com/T.Nesh.97', '_blank');"><FontAwesomeIcon icon={faFacebook} /></a>
-                 <a href="https://twitter.com/thineshnagindr1?s=08" onClick="window.open('https://twitter.com/thineshnagindr1?s=08', '_blank');"><FontAwesomeIcon icon={faTwitter} /></a>
-                 <a href="https://www.linkedin.com/" onClick="window.open('https://www.linkedin.com/', '_blank');"><FontAwesomeIcon icon={faLinkedinIn} /></a>
-                 <a href="https://www.instagram.com/thinesh1908/" onClick="window.open('https://www.instagram.com/thinesh1908/', '_blank');"><FontAwesomeIcon icon={faInstagram} /></a>
-                 <a href="https://www.skype.com/en/" onClick="window.open('https://www.skype.com/en/', '_blank');"><FontAwesomeIcon icon={faSkype} /></a>
+                 <a href="https://web.facebook.com/T.Nesh.97" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
+                 <a href="https://twitter.com/thineshnagindr1?s=08" target="_blank" rel="noopener noreferrer"/* onClick="window.open('https://twitter.com/thineshnagindr1?s=08', '_blank');" */><FontAwesomeIcon icon={faTwitter} /></a>
+                 <a href="https://www.linkedin.com/in/thinesh-nagindran-989b6b208" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                 <a href="https://www.instagram.com/thinesh1908/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+                 <a href="https://www.skype.com/en/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faSkype} /></a>
               </div>
             </div>
             <div className="scrolldown">

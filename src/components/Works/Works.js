@@ -162,7 +162,7 @@ export default class Works extends Component {
               <Button variant="secondary" onClick={this.closeModal}>
                 Close
           </Button>
-              <Button variant="primary"><a href="https://github.com/Tnesh97/BookListMVC/" target="_blank" style={{ textDecoration: 'none', color:'white' }}>View</a></Button>
+              <Button variant="primary"><a href="https://github.com/Tnesh97/BookListMVC/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color:'white' }}>View</a></Button>
             </Modal.Footer>
           </Modal>  
 
