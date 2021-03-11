@@ -22,7 +22,7 @@ export default class Resume extends Component {
                             <Col xs={12} sm={12} md={12} lg={12}>
                             <div className="content">
                                 <h3>SEGi University Kota Damansara</h3>
-                                <p className="info">Bachelor's Degree in Information Technology (Software Engineering) <span>&bull;</span> <em className="date">February 2018-February 2019</em></p>
+                                <p className="info">Bachelor's Degree in Information Technology (Software Engineering) <span>&bull;</span> <em className="date">February 2018-February 2020</em></p>
                                 <p className="info-paragraph">
                                  Second Class Honours,Upper Division<br/>
                                  CGPA = 3.25
@@ -60,8 +60,7 @@ export default class Resume extends Component {
                             technology company focussing on the Revenue Collections, Debt Recovery, 3rd party Agency
                             Management, Legal Management, Behaviour Scoring, and Analytics.<br/>
                             <br /> I was assigned to do :
-                            </p><br />    
-                            
+                            </p>
                             <ul>
                                 <li>
                                      Generating reports using Jaspersoft and Spring tool
