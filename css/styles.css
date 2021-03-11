@@ -366,7 +366,7 @@ body {
    #about .address {
       
       text-align: center;
-      width: 50%; 
+      width: 70%; 
       margin: 0 auto;
      
    }
@@ -682,9 +682,16 @@ padding-inline-start: 0px!important;
    #Resume h3{
       margin-top: 30px;
    }
-   #Resume .info-paragraph{
+   #Resume .work .info-paragraph{
       padding: 10px 20px;
+      text-align:justify;
+   }
+   #Resume .education .info-paragraph{
       text-align:center;
+   }
+   #Resume ul{
+     margin: 0 15px;
+     padding-inline-start: 20px!important;
    }
 }
 
