@@ -43,7 +43,7 @@ export default class About extends Component {
     <Col xs={12} sm={12} md={7} lg={7} className="text-right">
       <div className="download">
         <p>
-          <a href="files/MyResume.pdf" download className="button"><FontAwesomeIcon className="download-icon" icon={faDownload} />Download Resume</a>
+          <a href="files/MY_Resume.pdf" download className="button"><FontAwesomeIcon className="download-icon" icon={faDownload} />Download Resume</a>
         </p>
       </div>
     </Col>
